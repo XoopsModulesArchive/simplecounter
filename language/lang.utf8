@@ -1,0 +1,101 @@
+##############################################
+# admin.php
+##############################################
+
+[_AM_SIMPLECOUNTER_TITLE]
+ja: アクセス情報
+en: Counter Information
+
+[_AM_SIMPLECOUNTER_URI]
+ja: URI
+en: URI
+
+[_AM_SIMPLECOUNTER_TOTAL]
+ja: 総数
+en: Total
+
+[_AM_SIMPLECOUNTER_TODAY]
+ja: 今日
+en: Today
+
+[_AM_SIMPLECOUNTER_TODAY_DESC]
+ja: 最終アクセス日
+en: Day of Last Access Day
+
+[_AM_SIMPLECOUNTER_YESTERDAY]
+ja: 昨日
+en: Yesterday
+
+[_AM_SIMPLECOUNTER_YESTERDAY_DESC]
+ja: 最終アクセス日の前日
+en: Yesterday of Last Access Day
+
+[_AM_SIMPLECOUNTER_LAST_ACCESS]
+ja: 最終アクセス日
+en: Last Access
+
+[_AM_SIMPLECOUNTER_DELETE]
+ja: 削除
+en: Delete
+
+[_AM_SIMPLECOUNTER_DATE]
+ja: 日付
+en: Date
+
+[_AM_SIMPLECOUNTER_BY_DATE]
+ja: 日付毎
+en: By Date
+
+[_AM_SIMPLECOUNTER_BY_URL]
+ja: URL毎
+en: By URL
+
+
+
+##############################################
+# blocks.php
+##############################################
+
+[_MB_SIMPLECOUNTER_ALL]
+ja: 昨日までの総アクセス数
+en: Total access before yesterday
+
+[_MB_SIMPLECOUNTER_TOTAL]
+ja: 総数
+en: Total
+
+[_MB_SIMPLECOUNTER_TODAY]
+ja: 今日
+en: Today
+ch: 今天
+
+[_MB_SIMPLECOUNTER_YESTERDAY]
+ja: 昨日
+en: Yesterday
+ch: 昨天
+
+[_MB_SIMPLECOUNTER_IMG_URL]
+ja: 画像のURL
+en: URL of Images
+
+[_MB_SIMPLECOUNTER_IMG_NUM]
+ja: <0-9>
+en: <0-9>
+
+
+##############################################
+# modinfo.php
+##############################################
+
+[_MI_SIMPLECOUNTER_NAME]
+ja: シンプルカウンター
+en: SimpleCounter
+
+[_MI_SIMPLECOUNTER_DESC]
+ja: シンプルなカウンターです
+en: Simple counter
+
+[_MI_SIMPLECOUNTER_IMG_DESC]
+ja: シンプルな画像カウンターです
+en: Simple image counter
+

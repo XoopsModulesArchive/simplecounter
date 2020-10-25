@@ -1,0 +1,24 @@
+<!-- begin of simple counter block -->
+<table class="outer" cellspacing="1" width="95%">
+<{foreach item=simplecounter from=$block.simplecounter}>
+<tr class="odd">
+	<td align="right"><{$simplecounter.lang_today}></td>
+	<td align="right">
+	<{foreach item=char from=$simplecounter.today_chars}><img src="<{$simplecounter.image_prefix}><{$char}><{$simplecounter.image_suffix}>" alt="<{$char}>"><{/foreach}>
+	</td>
+</tr>
+<tr class="odd">
+	<td align="right"><{$simplecounter.lang_yesterday}></td>
+	<td align="right">
+	<{foreach item=char from=$simplecounter.yesterday_chars}><img src="<{$simplecounter.image_prefix}><{$char}><{$simplecounter.image_suffix}>" alt="<{$char}>"><{/foreach}>
+	</td>
+</tr>
+<tr class="even">
+	<td align="right"><{$simplecounter.lang_total}></td>
+	<td align="right" title="<{$simplecounter.lang_all}> <{$simplecounter.all}>">
+	<{foreach item=char from=$simplecounter.total_chars}><img src="<{$simplecounter.image_prefix}><{$char}><{$simplecounter.image_suffix}>" alt="<{$char}>"><{/foreach}>
+	</td>
+</tr>
+<{/foreach}>
+</table>
+<!-- end of simple counter block -->

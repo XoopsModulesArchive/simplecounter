@@ -1,0 +1,18 @@
+<!-- begin of simple counter block -->
+<table class="outer" cellspacing="1" width="95%">
+<{foreach item=simplecounter from=$block.simplecounter}>
+<tr class="odd">
+	<td align="right"><{$simplecounter.lang_today}></td>
+	<td align="right"><{$simplecounter.today}></td>
+</tr>
+<tr class="odd">
+	<td align="right"><{$simplecounter.lang_yesterday}></td>
+	<td align="right"><{$simplecounter.yesterday}></td>
+</tr>
+<tr class="even">
+	<td align="right"><{$simplecounter.lang_total}></td>
+	<td align="right" title="<{$simplecounter.lang_all}> <{$simplecounter.all}>"><{$simplecounter.total}></td>
+</tr>
+<{/foreach}>
+</table>
+<!-- end of simple counter block -->
